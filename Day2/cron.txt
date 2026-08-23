@@ -1,0 +1,24 @@
+# * * * * * /path/to/script.sh
+# | | | | |
+# | | | | +-- day of week (0-6, Sunday=0)
+# | | | +---- month (1-12)
+# | | +------ day of month (1-31)
+# | +-------- hour (0-23)
+# +---------- minute (0-59)
+
+
+
+#Every day at 2:30 AM
+#30 2 * * * /home/user/scripts/backup.sh
+
+# Every 15 minutes
+#*/15 * * * * /home/user/scripts/health_check.sh
+
+# Every weekday (Mon-Fri) at 9 AM
+#0 9 * * 1-5 /home/user/scripts/report.sh
+
+# First day of every month at midnight
+#0 0 1 * * /home/user/scripts/monthly_cleanup.sh
+
+#A Critical Production Habit
+30 2 * * * /home/user/scripts/backup.sh >> /var/log/backup.log 2>&1
