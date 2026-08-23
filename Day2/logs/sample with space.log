@@ -1,0 +1,7 @@
+2026-08-23 10:15:01 [ERROR] Disk full on /dev/sda1
+2026-08-23 10:16:02 [INFO] Backup started
+2026-08-23 10:17:03 [ERROR] Disk full on /dev/sda1
+2026-08-23 11:05:10 [ERROR] Connection timeout to db01
+2026-08-23 11:06:11 [WARN] Retry attempt 1
+2026-08-23 11:07:12 [ERROR] Connection timeout to db01
+2026-08-23 12:00:00 [ERROR] Out of memory

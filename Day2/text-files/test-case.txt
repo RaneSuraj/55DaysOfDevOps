@@ -1,0 +1,39 @@
+suraj@SWAR12:~/DevOps_challenge/Day2$ ./log_monitor.sh -f sample.log
+[Sun Aug 23 20:47:06 IST 2026] ----- Stating Log Monitoring Script -----
+[Sun Aug 23 20:47:06 IST 2026] ----- ERROR Count is within threshold limit -----
+[Sun Aug 23 20:47:06 IST 2026] ----- Ended Log Monitoring Script -----
+suraj@SWAR12:~/DevOps_challenge/Day2$ ./log_monitor.sh -f sample.log -t 2
+[Sun Aug 23 20:47:16 IST 2026] ----- Stating Log Monitoring Script -----
+[Sun Aug 23 20:47:16 IST 2026] WARNING: Error count exceeds the threshold 5 > 2 ...
+suraj@SWAR12:~/DevOps_challenge/Day2$
+suraj@SWAR12:~/DevOps_challenge/Day2$
+suraj@SWAR12:~/DevOps_challenge/Day2$ ./log_monitor.sh -f sample.log -v
+[Sun Aug 23 20:47:40 IST 2026] ----- Stating Log Monitoring Script -----
+[Sun Aug 23 20:47:40 IST 2026] MATCH: 2026-08-23 10:15:01 [ERROR] Disk full on /dev/sda1
+[Sun Aug 23 20:47:40 IST 2026] MATCH: 2026-08-23 10:17:03 [ERROR] Disk full on /dev/sda1
+[Sun Aug 23 20:47:40 IST 2026] MATCH: 2026-08-23 11:05:10 [ERROR] Connection timeout to db01
+[Sun Aug 23 20:47:40 IST 2026] MATCH: 2026-08-23 11:07:12 [ERROR] Connection timeout to db01
+[Sun Aug 23 20:47:40 IST 2026] MATCH: 2026-08-23 12:00:00 [ERROR] Out of memory
+[Sun Aug 23 20:47:40 IST 2026] ----- ERROR Count is within threshold limit -----
+[Sun Aug 23 20:47:40 IST 2026] ----- Ended Log Monitoring Script -----
+suraj@SWAR12:~/DevOps_challenge/Day2$
+suraj@SWAR12:~/DevOps_challenge/Day2$ ./log_monitor.sh -f sample.log -x
+Invalid Option: -x
+suraj@SWAR12:~/DevOps_challenge/Day2$ ./log_monitor.sh -f sample.log -t
+Option -t requires an argument
+suraj@SWAR12:~/DevOps_challenge/Day2$ ./log_monitor.sh
+Usage: ./log_monitor.sh -f <file> [-t threshold] [-v]
+suraj@SWAR12:~/DevOps_challenge/Day2$
+suraj@SWAR12:~/DevOps_challenge/Day2$ ./log_monitor.sh -f doesnotexist.log
+[Sun Aug 23 20:48:29 IST 2026] ----- Stating Log Monitoring Script -----
+Error: doesnotexist.log not found
+suraj@SWAR12:~/DevOps_challenge/Day2$ ./log_monitor.sh -f "sample with space.log"
+[Sun Aug 23 20:48:39 IST 2026] ----- Stating Log Monitoring Script -----
+[Sun Aug 23 20:48:39 IST 2026] ----- ERROR Count is within threshold limit -----
+[Sun Aug 23 20:48:39 IST 2026] ----- Ended Log Monitoring Script -----
+suraj@SWAR12:~/DevOps_challenge/Day2$
+suraj@SWAR12:~/DevOps_challenge/Day2$ ./log_monitor.sh -f clean.log -t 0
+[Sun Aug 23 20:48:50 IST 2026] ----- Stating Log Monitoring Script -----
+[Sun Aug 23 20:48:50 IST 2026] ----- ERROR Count is within threshold limit -----
+[Sun Aug 23 20:48:50 IST 2026] ----- Ended Log Monitoring Script -----
+suraj@SWAR12:~/DevOps_challenge/Day2$
