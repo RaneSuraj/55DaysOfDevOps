@@ -1,0 +1,20 @@
+
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 364 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 392 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 416 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 444 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 472 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 500 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 524 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 552 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 576 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 604 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 628 < 650
+Log rotated successfully and created = /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log_20260825_221536.gz...as current log file size is: 656 > 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 656 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 28 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 52 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 80 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 104 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 132 < 650
+Current Size for the /home/suraj/DevOps_challenge/Day3/sample_logs/app_service.log is: 156 < 650
